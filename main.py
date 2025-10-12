@@ -18,3 +18,5 @@ def long_function():
 
 
 say_hello("World")
+
+very_long_variable_name_that_exceeds_limit = "This is a very long line that should trigger E501 warning from flake8 because it exceeds 79 characters"
